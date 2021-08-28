@@ -1,0 +1,86 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image: url('gym man22.jpg');
+background-repeat: no-repeat;
+background-size: 1024px 510px;
+color: white;
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+left: 15px;
+top: 10px;}
+
+.left img{
+width: 85px;
+height: 60px;
+}
+.mid{
+/* border: 2px solid rgb(34, 184, 14); */
+display: block;
+width: 52%;
+margin: 20px auto ;
+}
+.right{
+/* border: 2px solid rgb(27, 15, 134); */
+display: inline-block;
+position: absolute;
+right: 4px;
+top: 20px;
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+float: left;
+list-style-type: none;
+}
+.navbar li a{
+color: white;
+text-decoration: none;
+padding: 34px 23px;
+}
+.navbar li a:hover{
+text-decoration: underline;
+}
+.btn:hover{
+text-decoration: underline;
+background-color: grey;
+cursor: pointer;
+}
+.btn1:hover{
+text-decoration: underline;
+background-color: grey;
+cursor: pointer;
+}
+.btn{
+margin: 0px 4px;
+color: white;
+background-color: black;
+border-radius: 10px;
+}
+.container{
+border: 2px solid white;
+    margin: 30px 10px;
+    padding: 85px;
+    width: 28%;
+    border-radius: 10px;
+}
+.form-group{
+padding: 3px;
+border: 2px solid black;
+display: inline-block;
+border-radius: 6px;
+}
+.btn1{
+margin: 0px 4px;
+color: white;
+background-color: black;
+border-radius: 10px;
+width: 175px;
+}
+p{
+color: #39dcdc;
+}
